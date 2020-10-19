@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ComputationExpressions", "ComputationExpressions\ComputationExpressions.fsproj", "{2DED0614-5015-4836-9E09-08C4CC56DF96}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ComputationExpressions.Tests", "ComputationExpressions.Tests\ComputationExpressions.Tests.fsproj", "{74AE44D8-1FC7-401F-9FB1-11DF9271A468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DED0614-5015-4836-9E09-08C4CC56DF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DED0614-5015-4836-9E09-08C4CC56DF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DED0614-5015-4836-9E09-08C4CC56DF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DED0614-5015-4836-9E09-08C4CC56DF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AE44D8-1FC7-401F-9FB1-11DF9271A468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AE44D8-1FC7-401F-9FB1-11DF9271A468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AE44D8-1FC7-401F-9FB1-11DF9271A468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AE44D8-1FC7-401F-9FB1-11DF9271A468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
