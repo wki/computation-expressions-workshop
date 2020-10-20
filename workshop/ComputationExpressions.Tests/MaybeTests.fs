@@ -1,4 +1,4 @@
-module Tests
+module MaybeTests
 open System.IO
 open Xunit
 open ComputationExpressions.Maybe

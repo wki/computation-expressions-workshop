@@ -23,8 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9386566f-cb45-4f11-abf1-8f832a668133" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.ionide/symbolCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/../.ionide/symbolCache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.workshop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.workshop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.workshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.workshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputationExpressions.Tests/ComputationExpressions.Tests.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputationExpressions.Tests/ComputationExpressions.Tests.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputationExpressions.Tests/MaybeTests.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputationExpressions.Tests/MaybeTests.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputationExpressions.Tests/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputationExpressions.Tests/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputationExpressions/ComputationExpressions.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputationExpressions/ComputationExpressions.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputationExpressions/Maybe.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputationExpressions/Maybe.fs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +47,11 @@
         <option value="$PROJECT_DIR$/ComputationExpressions.Tests/Tests.fs" />
         <option value="$PROJECT_DIR$/ComputationExpressions/OptionBuilder.fs" />
         <option value="$PROJECT_DIR$/ComputationExpressions.Tests/OptionBuilderTests.fs" />
-        <option value="$PROJECT_DIR$/ComputationExpressions/Maybe.fs" />
         <option value="$PROJECT_DIR$/ComputationExpressions.Tests/MaybeTests.fs" />
+        <option value="$PROJECT_DIR$/ComputationExpressions/Maybe.fs" />
+        <option value="$PROJECT_DIR$/ComputationExpressions.Tests/Program.fs" />
+        <option value="$PROJECT_DIR$/ComputationExpressions.Tests/ChoiceTests.fs" />
+        <option value="$PROJECT_DIR$/ComputationExpressions/Choice.fs" />
       </list>
     </option>
   </component>
@@ -95,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603129458896</updated>
-      <workItem from="1603129463624" duration="3285000" />
+      <workItem from="1603129463624" duration="5131000" />
     </task>
     <servers />
   </component>

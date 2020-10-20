@@ -1,6 +1,5 @@
 ﻿namespace ComputationExpressions
 module Maybe =
-
     type OptionBuilder() =
         class
             member this.Return(x) = Some x

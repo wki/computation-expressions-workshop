@@ -6,6 +6,7 @@
 
     <ItemGroup>
         <Compile Include="Maybe.fs" />
+        <Compile Include="Choice.fs" />
     </ItemGroup>
 
 </Project>
