@@ -4,10 +4,6 @@ open Xunit
 open ComputationExpressions.Maybe
 
 [<Fact>]
-let ``My test`` () =
-    Assert.True(true)
-
-[<Fact>]
 let ``maybe with one value returns Some(value)`` () =
     let expected = 1
     let actual = maybe { return expected }
@@ -46,3 +42,30 @@ let ``maybe can exist without return`` () =
     Assert.Equal(tmpContent, File.ReadAllText(tmpFile))
     File.Delete(tmpFile)
 
+[<Fact>]
+let ``maybe allows to return a computed None value`` () =
+    let result = maybe {
+        if true then
+            return! None
+        else
+            let! a = Some 40
+            let! b = Some 2
+            return a+b
+    }
+
+    Assert.Equal(None, result)
+
+[<Fact>]
+let ``maybe allows to return a computed Some() value`` () =
+    let expected = 13
+
+    let result = maybe {
+        if true then
+            return! Some expected
+        else
+            let! a = Some 40
+            let! b = None
+            return a+b
+    }
+
+    Assert.Equal(Some expected, result)
